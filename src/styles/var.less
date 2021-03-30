@@ -1,0 +1,17 @@
+@danger: #cc3600; // 危险、错误
+@primary: #50c9c3; // 主色调、链接
+@words: #434343; // 大部分文字、深色文字
+@lightWords: #999; // 少部分文字、浅色文字
+@warn: #dc6a12; // 警告
+@success: #7ebf50; // 成功
+@gray: #686868; // 灰色
+@dark: #434343; // 深色
+
+.font-hover {
+  &:hover,
+  &.font-hovered {
+    color: @primary;
+    box-shadow: 0 0 5px #50c9c3 inset;
+    border-radius: 10px;
+  }
+}
